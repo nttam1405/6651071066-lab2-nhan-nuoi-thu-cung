@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .header-bg { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; }
+      .brand-emerald { fill: #059669; }
+      .brand-text { fill: #0f172a; font-family: sans-serif; font-weight: bold; }
+      .banner { fill: #059669; rx: 16px; }
+      .card { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; rx: 12px; }
+      .card-img { fill: #cbd5e1; rx: 8px; }
+      .tag { fill: #ecfdf5; stroke: #a7f3d0; rx: 4px; }
+      .tag-text { fill: #047857; font-family: sans-serif; font-size: 11px; font-weight: bold; }
+      .btn-primary { fill: #059669; rx: 8px; }
+      .text-sm { fill: #64748b; font-family: sans-serif; font-size: 12px; }
+      .text-base { fill: #1e293b; font-family: sans-serif; font-size: 14px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="850" class="bg"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" class="header-bg"/>
+  <circle cx="50" cy="35" r="16" class="brand-emerald"/>
+  <text x="75" y="42" class="brand-text" font-size="20">PetAdopt <tspan fill="#059669">• MSSV: 6651071066</tspan></text>
+  <rect x="780" y="20" width="130" height="32" rx="8" fill="#ecfdf5"/>
+  <text x="800" y="41" fill="#059669" font-family: sans-serif" font-size="13" font-weight="bold">Tất cả thú cưng</text>
+  <rect x="925" y="20" width="120" height="32" rx="8" fill="#ffe4e6"/>
+  <text x="945" y="41" fill="#e11d48" font-family: sans-serif" font-size="13" font-weight="bold">❤️ Yêu thích (3)</text>
+  <circle cx="1070" cy="36" r="16" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="1064" y="41" font-size="14">🌙</text>
+
+  <!-- Hero Banner -->
+  <rect x="60" y="95" width="1080" height="130" rx="16" fill="#059669"/>
+  <text x="90" y="145" fill="#ffffff" font-family: sans-serif" font-size="26" font-weight="bold">Nhận Nuôi Thú Cưng - Mái Ấm Yêu Thương</text>
+  <text x="90" y="175" fill="#d1fae5" font-family: sans-serif" font-size="14">MSSV: 6651071066 • Đề tài D=8, Tính năng F=6 (Infinite Scroll, Yêu thích, Dark/Light Mode), Màu C=1 (#059669)</text>
+
+  <!-- Filter Bar -->
+  <rect x="60" y="245" width="1080" height="55" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="80" y="257" width="380" height="32" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="100" y="278" class="text-sm">🔍 Tìm theo tên, giống loài (Debounce 300ms)...</text>
+  <rect x="520" y="258" width="60" height="30" rx="6" class="btn-primary"/>
+  <text x="535" y="277" fill="#ffffff" font-family: sans-serif" font-size="12" font-weight="bold">Tất cả</text>
+  <rect x="590" y="258" width="50" height="30" rx="6" fill="#f1f5f9"/>
+  <text x="603" y="277" class="text-sm">Chó</text>
+  <rect x="650" y="258" width="50" height="30" rx="6" fill="#f1f5f9"/>
+  <text x="663" y="277" class="text-sm">Mèo</text>
+  <rect x="710" y="258" width="50" height="30" rx="6" fill="#f1f5f9"/>
+  <text x="723" y="277" class="text-sm">Thỏ</text>
+
+  <!-- 4-Column Grid Desktop (Cards) -->
+  <!-- Card 1 -->
+  <g transform="translate(60, 320)">
+    <rect width="255" height="360" rx="14" class="card"/>
+    <rect x="10" y="10" width="235" height="170" rx="10" class="card-img"/>
+    <circle cx="225" cy="30" r="14" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="218" y="35" font-size="13">❤️</text>
+    <text x="15" y="205" class="text-base">Milo (Golden lai)</text>
+    <text x="190" y="205" fill="#059669" font-family: sans-serif" font-size="13" font-weight="bold">200.000 ₫</text>
+    <text x="15" y="225" class="text-sm">Đực • 1 tuổi • Bình Thạnh</text>
+    <text x="15" y="250" class="text-sm" fill="#475569">Milo rất ngoan ngoãn, biết nghe lệnh...</text>
+    <rect x="15" y="270" width="70" height="22" class="tag"/>
+    <text x="22" y="285" class="tag-text">Thân thiện</text>
+    <rect x="15" y="315" width="225" height="32" class="btn-primary"/>
+    <text x="95" y="336" fill="#ffffff" font-family: sans-serif" font-size="12" font-weight="bold">Xem chi tiết</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(335, 320)">
+    <rect width="255" height="360" rx="14" class="card"/>
+    <rect x="10" y="10" width="235" height="170" rx="10" class="card-img"/>
+    <circle cx="225" cy="30" r="14" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="218" y="35" font-size="13">🤍</text>
+    <text x="15" y="205" class="text-base">Mochi (Anh lông ngắn)</text>
+    <text x="190" y="205" fill="#059669" font-family: sans-serif" font-size="13" font-weight="bold">150.000 ₫</text>
+    <text x="15" y="225" class="text-sm">Cái • 8 tháng • Quận 1</text>
+    <text x="15" y="250" class="text-sm" fill="#475569">Lông màu xám khói, mắt tròn to...</text>
+    <rect x="15" y="270" width="60" height="22" class="tag"/>
+    <text x="22" y="285" class="tag-text">Điềm tĩnh</text>
+    <rect x="15" y="315" width="225" height="32" class="btn-primary"/>
+    <text x="95" y="336" fill="#ffffff" font-family: sans-serif" font-size="12" font-weight="bold">Xem chi tiết</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(610, 320)">
+    <rect width="255" height="360" rx="14" class="card"/>
+    <rect x="10" y="10" width="235" height="170" rx="10" class="card-img"/>
+    <circle cx="225" cy="30" r="14" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="218" y="35" font-size="13">❤️</text>
+    <text x="15" y="205" class="text-base">Bơ (Corgi lai)</text>
+    <text x="190" y="205" fill="#059669" font-family: sans-serif" font-size="13" font-weight="bold">250.000 ₫</text>
+    <text x="15" y="225" class="text-sm">Đực • 2 tuổi • Cầu Giấy</text>
+    <text x="15" y="250" class="text-sm" fill="#475569">Chân ngắn mông tròn, rất háo ăn...</text>
+    <rect x="15" y="270" width="65" height="22" class="tag"/>
+    <text x="22" y="285" class="tag-text">Hài hước</text>
+    <rect x="15" y="315" width="225" height="32" class="btn-primary"/>
+    <text x="95" y="336" fill="#ffffff" font-family: sans-serif" font-size="12" font-weight="bold">Xem chi tiết</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(885, 320)">
+    <rect width="255" height="360" rx="14" class="card"/>
+    <rect x="10" y="10" width="235" height="170" rx="10" class="card-img"/>
+    <circle cx="225" cy="30" r="14" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="218" y="35" font-size="13">🤍</text>
+    <text x="15" y="205" class="text-base">Kẹo (Thỏ Mini Rex)</text>
+    <text x="190" y="205" fill="#059669" font-family: sans-serif" font-size="13" font-weight="bold">120.000 ₫</text>
+    <text x="15" y="225" class="text-sm">Cái • 6 tháng • Đống Đa</text>
+    <text x="15" y="250" class="text-sm" fill="#475569">Bộ lông nhung mềm như gấu bông...</text>
+    <rect x="15" y="270" width="70" height="22" class="tag"/>
+    <text x="22" y="285" class="tag-text">Nhẹ nhàng</text>
+    <rect x="15" y="315" width="225" height="32" class="btn-primary"/>
+    <text x="95" y="336" fill="#ffffff" font-family: sans-serif" font-size="12" font-weight="bold">Xem chi tiết</text>
+  </g>
+
+  <!-- Infinite Scroll Loading Sentinel -->
+  <g transform="translate(480, 710)">
+    <rect width="240" height="40" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <circle cx="510" cy="730" r="6" fill="#059669"/>
+    <text x="525" y="735" class="text-sm" font-weight="bold">⏳ Đang tải thêm thú cưng (Infinite Scroll)...</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="0" y="780" width="1200" height="70" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="60" y="820" class="text-sm">© 2024 PetAdopt • Báo cáo THIẾT KẾ WEB BUỔI 2 • MSSV: 6651071066</text>
+</svg>
